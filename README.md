@@ -10,12 +10,19 @@ There are quite a few things in this file that are simply assumed - For example,
 The first ~20 lines are all variables that are required for different parts of the script. A description of each variable can be found below:
 
 **INSTALLPATH** - Where are we saving the files?
+
 **USER** - Your local user. WP CLI doesn't like to be ran under SUDO, so we need to define the current user. (There's probably a better way to do this. Feel free to let me know the best way!)
+
 **DBHOST** - Where is your database located?
+
 **DBUSER** - Database Username
+
 **DBPASS** - Database Password for the above user
+
 **WPPASS** - WP-CLI specific. What do you want your local admin password to be?
+
 **WPUSER** - WP-CLI specific. What do you want your local admin username to be?
+
 **WPTITLE** - WP-CLI specific. Basically worthless, because you can change it later. However, it's recommended you put something.
 
 ##How to run
